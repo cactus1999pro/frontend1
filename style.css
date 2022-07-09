@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    background-color: aqua;
+}
+
+#c1
+{
+    color: white;
+    /* margin: 10 0 10 0; */
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.image{
+    margin: 0px 0 0 350px;
+    float: right;
+    /* display:block */
+}
+html{
+    background-color: #dfe6e9;
+}
+
+#c2
+{
+    background-color: aqua;
+}
+body{
+    font: merriweather;
+}
+#c2
+{
+    margin: 0;
+}
+div{
+    margin: 15;
+    padding: 15;
+    margin-bottom: 20px;
+}
+.head
+{
+    background-color: aqua;
+}
