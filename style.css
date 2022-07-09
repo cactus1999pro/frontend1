@@ -14,7 +14,7 @@ h1{
 .image{
     margin: 0px 0 0 350px;
     float: right;
-    /* display:block */
+    display:block
 }
 html{
     background-color: #dfe6e9;
