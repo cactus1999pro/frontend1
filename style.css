@@ -3,11 +3,12 @@
     
 }
 html,body{
-    /* background-image: url("backgroundImage.jpg"); */
-    background-color: aliceblue;
+    background-image: url("backgroundImage.jpg");
+    /* background-color: aliceblue; */
     height: 100%;
     width:100%;
     margin:5px;
+    padding: 5px;
     display: flex;
 
     
@@ -16,23 +17,30 @@ html,body{
     flex: 50%;
     height: fit-content;
     text-align: center;
-    margin: 5px;
-    padding: 5px;
+    margin: 0;
+    padding: 0;
     border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.intro img{
+    border-radius: 50%;
 }
 
 .info
 {
     flex: 50%;
     height: fit-content;
-    margin: 5;
-    padding: 5;
+    margin: 0;
+    padding: 0;
 }
 
 .info div{
     margin:5px;
     padding:5px;
     border: 2px solid black;
+    border-radius: 10px;
 }
 
 .info ul{
