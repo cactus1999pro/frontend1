@@ -1,7 +1,27 @@
+*{
+    box-sizing: border-box;
+}
 body{
     /* background-image: url("backgroundImage.jpg"); */
     background-color: aliceblue;
+    
 }
-.inro{
+.intro{
+    width: 25%;
+    
+    float: left;
     background-color: aquamarine;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.info
+{
+    width: 75%;
+    
+    float: left;
+    background-color:yellow;
+    margin: auto;
+    padding: 10px;
 }
