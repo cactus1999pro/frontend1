@@ -14,18 +14,17 @@ html,body{
 }
 .intro{
     flex: 50%;
-    height: 100%;
-   
-    
+    height: fit-content;
     text-align: center;
     margin: 5px;
     padding: 5px;
+    border: 2px solid black;
 }
 
 .info
 {
     flex: 50%;
-    height: 100%;
+    height: fit-content;
     margin: 5;
     padding: 5;
 }
@@ -33,6 +32,7 @@ html,body{
 .info div{
     margin:5px;
     padding:5px;
+    border: 2px solid black;
 }
 
 .info ul{
