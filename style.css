@@ -1,27 +1,54 @@
 *{
     box-sizing: border-box;
+    
 }
-body{
+html,body{
     /* background-image: url("backgroundImage.jpg"); */
     background-color: aliceblue;
+    height: 100%;
+    width:100%;
+    margin:5px;
+    display: flex;
+
     
 }
 .intro{
-    width: 25%;
+    flex: 50%;
+    height: 100%;
+   
     
-    float: left;
-    background-color: aquamarine;
     text-align: center;
-    margin: auto;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
 }
 
 .info
 {
-    width: 75%;
-    
-    float: left;
-    background-color:yellow;
-    margin: auto;
-    padding: 10px;
+    flex: 50%;
+    height: 100%;
+    margin: 5;
+    padding: 5;
+}
+
+.info div{
+    margin:5px;
+    padding:5px;
+}
+
+.info ul{
+    margin: 5px;
+    padding: 15px;
+
+}
+.basic{
+    background-color: #FFA500;
+}
+.likings{
+    background-color: #DB7093;
+}
+.expert{
+    background-color: #B0E0E6;
+}
+.aim{
+    background-color: #00FF7F;
 }
