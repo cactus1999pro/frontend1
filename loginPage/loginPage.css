@@ -1,8 +1,92 @@
 *{
+    margin: 0;
+    padding:0;
     box-sizing: border-box;
+    font-size: 20px;
     
 }
 .html,body{
-    background-color: aqua;
+    display: flex;
+    margin: 20px;
+    width: 100%;
+    height:100%;
+   
+    
+}
+.block__login{
+    padding: 10px;
+    flex:40%;
+    
+}
+.block__login input{
+    border-radius: 15px;
+    padding:10px;
+    margin:10px;
+}
+.block__login button{
+    width: 55%;
+    height:50px;
+    margin:10px;
+    position: relative;left: 10px;
+    border-radius: 15px;  
+}
+
+
+
+.block__login--social{
+    padding: 10px;  
+}
+
+
+.div{
+    margin: 10px;
+    padding:10px;
+}
+.form{
+    margin: 10px;
+    padding:10px;
+    position: relative;left: 10px;
+}
+.link__forgotPassword{
+    text-align: right;
+    position: relative;
+    left: 10px;
+    
+}
+
+.block__login--socialSelect{
+    
+    padding:0;
+    /* justify-content: space-around; */
+    position: relative;
+    left:50px
+    
+    
+}
+.block__login--socialSelect img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.block__menu{
+    
+    flex:60%;
+}
+.block__menu a{
+    display: inline;
+    color: gray;
+    padding:10px;
+}
+.img__cover{
+    width: 450px;
+    height: 450px;
+}
+.img__logo--home{
+    padding: 0;
+    margin: 0;
+    width:25px;
+    height: 25px;
 }
 
