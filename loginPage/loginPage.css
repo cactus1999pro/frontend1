@@ -1,92 +1,127 @@
 *{
-    margin: 0;
+    font-family: 'Nunito', sans-serif; 
+    margin:0;
     padding:0;
-    box-sizing: border-box;
-    font-size: 20px;
-    
+    box-sizing:border-box
 }
 .html,body{
     display: flex;
-    margin: 20px;
-    width: 100%;
-    height:100%;
-   
-    
+    width: 1600px;
+    height: 960px;
 }
 .block__login{
-    padding: 10px;
-    flex:40%;
-    
-}
-.block__login input{
-    border-radius: 15px;
-    padding:10px;
-    margin:10px;
-}
-.block__login button{
-    width: 55%;
-    height:50px;
-    margin:10px;
-    position: relative;left: 10px;
-    border-radius: 15px;  
+    width: 578px;
+    height: 960px;
+    margin: 76px 0px 96px 75.56px;
 }
 
-
-
-.block__login--social{
-    padding: 10px;  
-}
-
-
-.div{
-    margin: 10px;
-    padding:10px;
-}
-.form{
-    margin: 10px;
-    padding:10px;
-    position: relative;left: 10px;
-}
-.link__forgotPassword{
-    text-align: right;
-    position: relative;
-    left: 10px;
-    
-}
-
-.block__login--socialSelect{
-    
-    padding:0;
-    /* justify-content: space-around; */
-    position: relative;
-    left:50px
-    
-    
-}
-.block__login--socialSelect img{
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
 .block__menu{
-    
-    flex:60%;
+    width:1022px;
+    height: 960px;
+    margin-left: 229px;
+    margin-right: 85px;
+    margin-top: 76px;
 }
-.block__menu a{
-    display: inline;
-    color: gray;
-    padding:10px;
+.link__signUp{
+    font-weight: 700;
+}
+
+#welcome{
+    height: 55px;
+    font-weight: 800;
+    font-size: 36px;
+    padding:4.7px 0px 4.7px 0px;
+    font-family: 'Overpass', sans-serif;    
+}
+#signup{ 
+    height: 33px;
+    font-size: 24px;
+    padding: 0.13px;
+    font-weight: 400;
+    
+}
+.block__login--field{
+    margin-top: 71px;
+}
+.block__login--field label{
+    font-weight: 600;
+    font-size: 28px;
+    }
+.block__login--field input{
+        width: 482px;
+        height: 72px;
+        border-radius: 80px;
+        margin: 24px 0 24px 0;
+        font-size: 25px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .form__remember{
+        margin:0;
+        padding:0;   
+    }
+    .form__remember input{
+        color: #9EB0EA;
+        width: 48px;
+        height: 48px;
+        margin: 0;
+    }
+    .form__remember label{
+        
+        width: 434px;
+        height: 48px;
+        font-size: 20px;
+        font-weight: 400;    
+    }
+    .link__forgotPassword{
+        text-align: left;
+        padding-left: 100px;
+    }
+    .btn__signIn{
+        width: 482px;
+        height: 72px;
+        border-radius: 80px;
+        background-color:#8699DA;
+        color: white; 
+        font-weight: 800;
+        font-size: 28px;
+        margin:54px 0 61px 0;
+    }
+    .block__connector{
+        display: flex;
+        color: #444B59;
+        font-size: 20px;
+        font-weight: 400px;
+        width: fit-content;
+        margin:0 0 24px 0;
+    }
+.block__login--socialSelect{
+    padding-bottom: 75.56px;
+    display: flex;
+    justify-content: space-around;
+}
+block__login--socialSelect img{
+    width: 100px;
+    height: 60px;
+}
+
+.block__menu{
+    margin-left: 85px;
+}
+.block__menu--list{
+    width: 708px;
+    height: 27px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 117px;
+    font-size: 20px;
+    color: #444B59;
+
 }
 .img__cover{
-    width: 450px;
-    height: 450px;
+    width: 708px;
+    height:598.33px;
 }
-.img__logo--home{
-    padding: 0;
-    margin: 0;
-    width:25px;
-    height: 25px;
+.block__menu a{
+    color: #444B59;
 }
-

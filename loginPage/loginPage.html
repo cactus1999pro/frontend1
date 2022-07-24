@@ -7,50 +7,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="loginPage.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&family=Nunito:wght@200;400&family=Overpass:wght@100&display=swap" rel="stylesheet">
 </head>
 
 <body>
     
     <div class="block__login">
         <div class="block__login--welcome">
-            <h2>WELLCOME BACK !</h2>
-            <p>Don't have an account. <a class="link link__signUp" href="abc.xyz"><b>sign up</b></a></p>    
+            <p id="welcome">WELLCOME BACK!</p>
+            <p id="signup">Don't have an account. <a class="link link__signUp" href="abc.xyz"><b>sign up</b></a></p>    
         </div>
-        <form class="form form__login--inputField">
+        <div class="block block__login--field">
+        <form class="form form__username">
             <label>Username</label><br>
-            <input class="input__username" type="text" placeholder="VD:phamduy19"><br>
-            <label>Password</label><br>
-            <input class="intput__password" type="text" placeholder="*******"><br>
-            <input type="radio"> Remember Me <br>
-            <a class="link link__forgotPassword" href="abcde.com">Forgot Password?</a><br>
-            <button>Sign In</button>
-            
+            <input class="input__username" type="text" placeholder="abc@example.com"><br>    
         </form>
+        <form class="form form__password" >
+            <label>Password</label><br>
+            <input class="intput__password" type="text" placeholder="***************"><br>
+        </form>
+        <form class="form form__remember">  
+            <input type="radio">
+            <label>Remember me <a class="link link__forgotPassword" href="abcde.com">Forgot Password?</a></label>
+        </form>           
+        </div>
+            <button class="btn__signIn">Sign In</button>   
         <div class="block__login--social">
-            <div class="block__login--socialTitle">________Or continue with________</div>
+            <div class="block block__connector">
+               <p>------------------Or continue with--------------------</p> 
+            </div>
             <div class="block block__login--socialSelect">
                 <a href="fb.com/login">
-                    <img class="img img__logo--facebook" src="fbLogo.PNG" alt="facebook">
+                    <img class="img img__logo--facebook" src="facebook_logo.png" alt="facebook">
                 </a>
                 <a href="mail.google.com/login">
-                    <img class="img img__logo--gmail" src="gmailLogo.PNG" alt="gmail">
+                    <img class="img img__logo--gmail" src="google_logo.png" alt="gmail">
                 </a>
                 <a href="https://appleid.apple.com">
-                    <img class="img img__logo--apple" src="appleLogo.PNG" alt="apple">
+                    <img class="img img__logo--apple" src="apple_logo.png" alt="apple">
                 </a>
             </div>    
         </div>
     </div>
-    
     <div class="block__menu">
-        <a href="Help.com">Help</a>
-        <a href="Help.com">Contact US</a>
-        <a href="Help.com">English</a>
-        <a href="Help.com">Sign Up</a>
-        <img class="img img__logo--home" src="homeIcon2.png" alt="home" >
-        <div class="block__redirect--home"></div>
-        <img class="img img__cover" src="catPicture2.png" alt="cover">
+        <div class="block__menu--list">
+            <a href="Help.com">Help</a>
+            <a href="Help.com">Contact US</a>
+            <a href="Help.com">English</a>
+            <a href="Help.com">Sign Up</a>
+            <img class="img img__logo--home" src="home_icon.png" alt="home" >
+        </div>
+            
+            
+            <img class="img img__cover" src="cover_picture.png" alt="cover">
+        
     </div>
     
     
