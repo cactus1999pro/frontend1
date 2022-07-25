@@ -1,127 +1,125 @@
-*{
-    font-family: 'Nunito', sans-serif; 
-    margin:0;
-    padding:0;
-    box-sizing:border-box
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.html,body{
-    display: flex;
-    width: 1600px;
-    height: 960px;
+.html,
+body {
+  display: flex;
+  width: 1600px;
+  height: 960px;
 }
-.block__login{
-    width: 578px;
-    height: 960px;
-    margin: 76px 0px 96px 75.56px;
-}
-
-.block__menu{
-    width:1022px;
-    height: 960px;
-    margin-left: 229px;
-    margin-right: 85px;
-    margin-top: 76px;
-}
-.link__signUp{
-    font-weight: 700;
+.block__login {
+  width: 578px;
+  height: 960px;
+  margin: 76px 0px 96px 75.56px;
 }
 
-#welcome{
-    height: 55px;
-    font-weight: 800;
-    font-size: 36px;
-    padding:4.7px 0px 4.7px 0px;
-    font-family: 'Overpass', sans-serif;    
+.block__menu {
+  width: 1022px;
+  height: 960px;
+  margin-left: 229px;
+  margin-right: 85px;
+  margin-top: 76px;
 }
-#signup{ 
-    height: 33px;
-    font-size: 24px;
-    padding: 0.13px;
-    font-weight: 400;
-    
-}
-.block__login--field{
-    margin-top: 71px;
-}
-.block__login--field label{
-    font-weight: 600;
-    font-size: 28px;
-    }
-.block__login--field input{
-        width: 482px;
-        height: 72px;
-        border-radius: 80px;
-        margin: 24px 0 24px 0;
-        font-size: 25px;
-        font-weight: 400;
-        text-align: center;
-    }
-    .form__remember{
-        margin:0;
-        padding:0;   
-    }
-    .form__remember input{
-        color: #9EB0EA;
-        width: 48px;
-        height: 48px;
-        margin: 0;
-    }
-    .form__remember label{
-        
-        width: 434px;
-        height: 48px;
-        font-size: 20px;
-        font-weight: 400;    
-    }
-    .link__forgotPassword{
-        text-align: left;
-        padding-left: 100px;
-    }
-    .btn__signIn{
-        width: 482px;
-        height: 72px;
-        border-radius: 80px;
-        background-color:#8699DA;
-        color: white; 
-        font-weight: 800;
-        font-size: 28px;
-        margin:54px 0 61px 0;
-    }
-    .block__connector{
-        display: flex;
-        color: #444B59;
-        font-size: 20px;
-        font-weight: 400px;
-        width: fit-content;
-        margin:0 0 24px 0;
-    }
-.block__login--socialSelect{
-    padding-bottom: 75.56px;
-    display: flex;
-    justify-content: space-around;
-}
-block__login--socialSelect img{
-    width: 100px;
-    height: 60px;
+.link__signUp {
+  font-weight: 700;
 }
 
-.block__menu{
-    margin-left: 85px;
+#welcome {
+  height: 55px;
+  font-weight: 800;
+  font-size: 36px;
+  padding: 4.7px 0px 4.7px 0px;
+  font-family: "Overpass", sans-serif;
 }
-.block__menu--list{
-    width: 708px;
-    height: 27px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 117px;
-    font-size: 20px;
-    color: #444B59;
+#signup {
+  height: 33px;
+  font-size: 24px;
+  padding: 0.13px;
+  font-weight: 400;
+}
+.block__login--field {
+  margin-top: 71px;
+}
+.block__login--field label {
+  font-weight: 600;
+  font-size: 28px;
+}
+.block__login--field input {
+  width: 482px;
+  height: 72px;
+  border-radius: 80px;
+  margin: 24px 0 24px 0;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
+.form__remember {
+  margin: 0;
+  padding: 0;
+}
+.form__remember input {
+  color: #9eb0ea;
+  width: 48px;
+  height: 48px;
+  margin: 0;
+}
+.form__remember label {
+  width: 434px;
+  height: 48px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.link__forgotPassword {
+  text-align: left;
+  padding-left: 100px;
+}
+.btn__signIn {
+  width: 482px;
+  height: 72px;
+  border-radius: 80px;
+  background-color: #8699da;
+  color: white;
+  font-weight: 800;
+  font-size: 28px;
+  margin: 54px 0 61px 0;
+}
+.block__connector {
+  display: flex;
+  color: #444b59;
+  font-size: 20px;
+  font-weight: 400px;
+  width: fit-content;
+  margin: 0 0 24px 0;
+}
+.block__login--socialSelect {
+  padding-bottom: 75.56px;
+  display: flex;
+  justify-content: space-around;
+}
+block__login--socialSelect img {
+  width: 100px;
+  height: 60px;
+}
 
+.block__menu {
+  margin-left: 85px;
 }
-.img__cover{
-    width: 708px;
-    height:598.33px;
+.block__menu--list {
+  width: 708px;
+  height: 27px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 117px;
+  font-size: 20px;
+  color: #444b59;
 }
-.block__menu a{
-    color: #444B59;
+.img__cover {
+  width: 708px;
+  height: 598.33px;
+}
+.block__menu a {
+  color: #444b59;
 }
