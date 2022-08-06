@@ -2,8 +2,83 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 .html{
-    width: 1152px;
-    height: 2283px;
+    
+    font-family: 'Heebo', sans-serif;
 }
+.nav__menu{
+    text-align: right;
+    font-size: 1.25rem;
+    padding-top: 0.85rem;
+    padding-right: 3.75rem;
+}
+.nav__menu a{
+    padding: 1.5rem 2rem 1.5rem;
+    color: black;
+    font-weight: 500;
+}
+.container{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.container__header--big{
+    padding-top: 4.3rem;
+    padding-bottom: 1.9rem;
+    font-size: 2.125rem;
+    font-weight: 700;
+}
+.container button {
+    background-color: #FF7C7C;
+    color: white;
+    border-radius: 1rem;
+    width: 62px;
+    height: 25px;
+    font-weight: 700;
+    border: none;
+  }
+  .container__section{
+    display: flex;
+    flex-wrap: wrap;
+    padding:1.4rem 0 1.4rem 0;
+  }
+  .container__header--small{
+    padding-left: 1rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  .container__section div{
+    padding:1rem 0 1rem 0;
+  }
+  .container__section h2{
+    font-size: 1.25rem;
+    padding-top: 1.4rem;
+  }
+  .container p{
+    padding: 1.4rem 0 1.4rem 0;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .container__section img{
+    padding-top: 1.4rem;
+  }
+  .footer{
+    text-align: center;
+  }
+  .footer nav{
+    display: flex;
+    justify-content: center;
+    padding: 1.4rem;
+  }
+  .footer img{
+    margin-left: 1.6rem;
+  }
+  /* try responsive */
+  @media only screen and (max-width: 375px)
+  {
+    .container{
+      width: 375px;
+      background-color: blue;
+    }
+  }
